@@ -1,0 +1,70 @@
+ARRAYS
+
+Arrays are used to store multiple items at one place.
+These items are of same data type.
+The elements in an array are stored in contagious memory location.
+
+Arrays are index based. the first element is stored at a 0th index and 2nd element is stored at 1st index so on.
+
+Array is an object.
+
+Array is accessed using index.
+
+ arr[] = {10,20,30,40,50}
+ index =  0, 1, 2, 3, 4
+
+ elements in an array are stored in following order
+ x, x+y, x+2y, x+3y, x+4y
+
+ x = Address where array is stored
+ y = size of an array element
+
+ Advantages of Array:
+ 	1. Random Access: We can get any data located at any index position.
+
+ 	2. Code Optimization: It means code optimize, we can retrieve or sort data efficiently.
+
+ 	3. Cache Friendliness: Cache is a memory closet to the CPU. It is fastest of all memories.
+
+ Disadvantage or Array:
+
+ 	We can store only fixed size of elements in an array. Array does not grow at runtime.
+
+
+ * Types of Arrays:
+
+ 	1. Fixed size arrays
+ 	2. Dynamic arrays: ArrayList
+
+ * Array Declaration:
+
+  	int [] a; //recommended to use
+  	int a [];
+
+  	We cannot declare the size of an array at the time of declaration otherwise it will give compile time error.
+
+
+ * Array Construction:
+ 	Every array in java is an object we can create by using new operator.
+
+ 	int [] a = new int[3];
+
+ * Every array in java is created in heap memory.
+
+ At the time of array construction we should specify the size of array otherwise we might get compile time error.
+
+
+ If we ae taking array size with -ve int value then we will get runtime exception saying NegativeArraySizeException.
+
+
+ * Array Initialization:
+
+ 	Whenever we are creating an array every element is initialized with default value automatically.
+
+ 	int [] a = new int [3];
+ 	sopln(a); [I@3e12a5s5
+
+
+
+
+ 	
